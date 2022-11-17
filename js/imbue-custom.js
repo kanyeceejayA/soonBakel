@@ -40,12 +40,12 @@ $(window).on("load", function() {
   // --------------------------------------------- //
   setTimeout(function(){
     $(".loader-logo").removeClass('fadeIn').addClass('fadeOut');
-  },600);
+  },100);
 
   setTimeout(function(){
     $('body').removeClass('overflow-hidden');
     $(".loader").addClass('fade loaded');
-  },1200);
+  },100);
   // --------------------------------------------- //
   // Loader End
   // --------------------------------------------- //
@@ -60,7 +60,7 @@ $(window).on("load", function() {
     if ($('body').hasClass('fullscreen')) {
       $('body').addClass('fullscreen-loaded');
     };
-  },1200);
+  },100);
   // --------------------------------------------- //
   // Main Section Loading Animation End
   // --------------------------------------------- //
