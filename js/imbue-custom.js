@@ -218,8 +218,8 @@ $(function() {
   // --------------------------------------------- //
   // KBW-Countdown Start
   // --------------------------------------------- //
-  $('#countdown').countdown({until: $.countdown.UTCDate(+10, 2021, 11, 26), format: 'D'});
-  $('#countdown-large').countdown({until: $.countdown.UTCDate(+10, 2021, 11, 26), format: 'DHMS'});
+  $('#countdown').countdown({until: $.countdown.UTCDate(+3, 2022, 11, 20), format: 'D'});
+  $('#countdown-large').countdown({until: $.countdown.UTCDate(+3, 2022, 12, 20), format: 'DHMS'});
   // --------------------------------------------- //
   // KBW-Countdown End
   // --------------------------------------------- //
